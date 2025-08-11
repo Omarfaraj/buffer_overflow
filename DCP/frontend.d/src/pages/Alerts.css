@@ -1,0 +1,43 @@
+
+.alerts-page {
+    padding: 2rem 0;
+  }
+  
+  .alerts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .alerts-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-slate-900);
+  }
+  
+  .filter-options {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-slate-100);
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .filter-btn.active {
+    background-color: var(--color-indigo-600);
+    color: white;
+  }
+  
+  .alerts-container {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
